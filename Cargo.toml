@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "heimdallr",
+    "heimdallrd",
+    "client",
+    "partdiff",
+    "benchmark",
+]
+
+[profile.release]
+lto = true
+codegen-units = 1
